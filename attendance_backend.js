@@ -29,7 +29,7 @@ document.getElementById('attendanceForm').addEventListener('submit', function(ev
 
     markAttendance(studentName);
 
-    alert(`${studentName} attendance marked!`);
+    alert('${studentName} attendance marked!');
 
     this.reset();
 
